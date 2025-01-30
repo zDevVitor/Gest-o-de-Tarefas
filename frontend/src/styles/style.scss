@@ -1,0 +1,80 @@
+body {
+    background-image: url("https://carreiras.empregos.com.br/wp-content/uploads/2023/12/hr-managers-are-interviewing-job-applicants-who-fi-2023-11-27-05-29-12-utc-scaled.jpg");
+    display: grid;
+    width: 100%;
+    height: 100%;
+    padding-top: 2%;
+}
+
+.container-home {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    height: 100vh;
+    width: 80vw;
+    align-items: center;
+    justify-items: center;
+
+    .login-section {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;        
+        align-items: center;
+        text-align: center;
+        background-color: rgba(156, 149, 141, 0.6);        
+        width: 40vw;
+        height: 60vh;
+        padding: 2% 2% 2% 2%;
+
+        h1 {
+            font-size: 2rem;
+            color: #ffffff; // Salmão claro
+            padding-bottom: 10%;
+        }
+
+        form {
+            display: flex;
+            flex-direction: column;
+            width: 100%;
+            
+            input {
+                margin: 10px 0;
+                padding: 10px;
+                border: 1px solid goldenrod;
+                border-radius: 5px;
+            }
+
+            button {
+                background: goldenrod;
+                color: white;
+                padding: 10px;
+                border: none;
+                border-radius: 5px;
+                cursor: pointer;
+                font-size: 1rem;
+
+                &:hover {
+                    background: #FF8C80, 10%;
+                }
+            }
+        }
+    }
+
+    .image-section {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: whitesmoke;
+        background-image: url('https://media.istockphoto.com/id/1434212178/pt/foto/middle-eastern-lady-using-laptop-working-online-sitting-in-office.jpg?s=612x612&w=0&k=20&c=cqKEcdL2Rb0dilodWnJf7udizXbpyv_q8EaF94YRUqQ=');
+        background-repeat: no-repeat;
+        width: 40vw;
+        height: 60vh;
+    
+        img {
+            max-width: 80%;
+            height: auto;
+        }
+    }
+}
+
+
+
